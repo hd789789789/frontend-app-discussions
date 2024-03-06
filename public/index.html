@@ -52,6 +52,21 @@
   </head>
   <body>
     <div id="root" class="small"></div>
+    <script>
+      setInterval(() => {
+          [
+              {
+                  selector: '#root > div > header > div > div > nav.nav.main-nav > a',
+                  content: 'Courses',
+                  replacement: 'Khoá học',
+              },
+          ].forEach((item) => {
+              const element = document.querySelector(item.selector);
+              if (element && element.innerHTML.indexOf(item.content) != -1)
+                  element.innerHTML = element.innerHTML.replace(item.content, item.replacement);
+          });
+      }, 100);
+    </script>
 
     <!-- begin usabilla live embed code -->
     <script defer type="text/javascript">
