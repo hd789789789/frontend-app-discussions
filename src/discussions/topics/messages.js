@@ -21,52 +21,52 @@ const messages = defineMessages({
   },
   reported: {
     id: 'discussions.topics.reported',
-    defaultMessage: '{reported} reported',
+    defaultMessage: '{reported} đã báo cáo',
     description: 'Display tooltip text used to indicate how many posts are reported',
   },
   previouslyReported: {
     id: 'discussions.topics.previouslyReported',
-    defaultMessage: '{previouslyReported} previously reported',
+    defaultMessage: '{previouslyReported} đã báo cáo trước đó',
     description: 'Display tooltip text used to indicate how many posts are previously reported',
   },
   sortedBy: {
     id: 'discussions.topics.sort.message',
-    defaultMessage: 'Sorted by {sortBy}',
+    defaultMessage: 'Sắp xếp theo {sortBy}',
     description: 'Display text used to indicate how topics are sorted',
   },
   sortByLastActivity: {
     id: 'discussions.topics.sort.lastActivity',
-    defaultMessage: 'Recent activity',
+    defaultMessage: 'Hoạt động gần đây',
     description: 'Option in dropdown to sort topics by recent activity',
   },
   sortByCommentCount: {
     id: 'discussions.topics.sort.commentCount',
-    defaultMessage: 'Most activity',
+    defaultMessage: 'Nhiều hoạt động nhất',
     description: 'Option in dropdown to sort topics by most activity',
   },
   sortByCourseStructure: {
     id: 'discussions.topics.sort.courseStructure',
-    defaultMessage: 'Course Structure',
+    defaultMessage: 'Cấu trúc khóa học',
     description: 'Option in dropdown to sort topics by course structure',
   },
   searchTopics: {
     id: 'discussions.topics.find.label',
-    defaultMessage: 'Search topics',
+    defaultMessage: 'Tìm kiếm chủ đề',
     description: 'Placeholder text in search bar',
   },
   archivedTopics: {
     id: 'discussions.topics.archived.label',
-    defaultMessage: 'Archived',
+    defaultMessage: 'Đã lưu trữ',
     description: 'Heading for displaying topics that are archived.',
   },
   unnamedTopicCategories: {
     id: 'discussions.topics.unnamed.label',
-    defaultMessage: 'Unnamed category',
+    defaultMessage: 'Danh mục chưa đặt tên',
     description: 'Text to display in place of topic name if topic name is empty',
   },
   unnamedTopicSubCategories: {
     id: 'discussions.subtopics.unnamed.label',
-    defaultMessage: 'Unnamed subcategory',
+    defaultMessage: 'Danh mục phụ chưa đặt tên',
     description: 'Text to display in place of topic name if topic name is empty',
   },
 });

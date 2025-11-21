@@ -3,7 +3,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   backAlt: {
     id: 'discussions.topics.backAlt',
-    defaultMessage: 'Back to topics list',
+    defaultMessage: 'Quay lại danh sách chủ đề',
     description: 'Display back button text used to navigate back to topics list',
   },
   discussions: {
@@ -26,52 +26,52 @@ const messages = defineMessages({
   },
   reported: {
     id: 'discussions.topics.reported',
-    defaultMessage: '{reported} reported',
+    defaultMessage: '{reported} đã báo cáo',
     description: 'Display tooltip text used to indicate how many posts are reported',
   },
   previouslyReported: {
     id: 'discussions.topics.previouslyReported',
-    defaultMessage: '{previouslyReported} previously reported',
+    defaultMessage: '{previouslyReported} đã báo cáo trước đó',
     description: 'Display tooltip text used to indicate how many posts are previously reported',
   },
   searchTopics: {
     id: 'discussions.topics.find.label',
-    defaultMessage: 'Search topics',
+    defaultMessage: 'Tìm kiếm chủ đề',
     description: 'Placeholder text in search bar',
   },
   unnamedSection: {
     id: 'discussions.topics.unnamed.section.label',
-    defaultMessage: 'Unnamed Section',
+    defaultMessage: 'Phần chưa đặt tên',
     description: 'Text to display in place of section name if section name is empty',
   },
   unnamedSubsection: {
     id: 'discussions.topics.unnamed.subsection.label',
-    defaultMessage: 'Unnamed Subsection',
+    defaultMessage: 'Phần phụ chưa đặt tên',
     description: 'Text to display in place of subsection name if subsection name is empty',
   },
   unnamedTopic: {
     id: 'discussions.subtopics.unnamed.topic.label',
-    defaultMessage: 'Unnamed Topic',
+    defaultMessage: 'Chủ đề chưa đặt tên',
     description: 'Text to display in place of topic name if topic name is empty',
   },
   noTopicExists: {
     id: 'discussions.topics.title',
-    defaultMessage: 'No topic exists',
+    defaultMessage: 'Không có chủ đề nào',
     description: 'Text to display in place of topic list if topic does not exist',
   },
   createTopic: {
     id: 'discussions.topics.createTopic',
-    defaultMessage: 'Please contact you admin to create a topic',
+    defaultMessage: 'Vui lòng liên hệ quản trị viên của bạn để tạo chủ đề',
     description: 'Helping Text to display in place of topic list if topic does not exist',
   },
   nothingHere: {
     id: 'discussions.topics.nothing',
-    defaultMessage: 'Nothing here yet',
+    defaultMessage: 'Chưa có gì ở đây',
     description: 'Helping Text to display if nothing here yet',
   },
   archivedTopics: {
     id: 'discussions.topics.archived.label',
-    defaultMessage: 'Archived',
+    defaultMessage: 'Đã lưu trữ',
     description: 'Heading for displaying topics that are archived.',
   },
 });

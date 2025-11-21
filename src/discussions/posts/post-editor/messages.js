@@ -3,172 +3,172 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   type: {
     id: 'discussions.post.editor.type',
-    defaultMessage: 'Post type',
+    defaultMessage: 'Loại bài viết',
   },
   addPostHeading: {
     id: 'discussions.post.editor.addPostHeading',
-    defaultMessage: 'Add a post',
+    defaultMessage: 'Thêm bài viết',
   },
   editPostHeading: {
     id: 'discussions.post.editor.editPostHeading',
-    defaultMessage: 'Edit post',
+    defaultMessage: 'Chỉnh sửa bài viết',
   },
   typeDescription: {
     id: 'discussions.post.editor.typeDescription',
-    defaultMessage: 'Questions raise issues that need answers. Discussions share ideas and start conversations.',
+    defaultMessage: 'Câu hỏi đặt ra các vấn đề cần câu trả lời. Thảo luận chia sẻ ý tưởng và bắt đầu cuộc trò chuyện.',
   },
   required: {
     id: 'discussions.post.editor.required',
-    defaultMessage: 'Required',
+    defaultMessage: 'Bắt buộc',
   },
   questionType: {
     id: 'discussions.post.editor.questionType',
-    defaultMessage: 'Question',
+    defaultMessage: 'Câu hỏi',
   },
   questionDescription: {
     id: 'discussions.post.editor.questionDescription',
-    defaultMessage: 'Raise issues that need answers',
+    defaultMessage: 'Đặt ra các vấn đề cần câu trả lời',
   },
   discussionType: {
     id: 'discussions.post.editor.discussionType',
-    defaultMessage: 'Discussion',
+    defaultMessage: 'Thảo luận',
   },
   discussionDescription: {
     id: 'discussions.post.editor.discussionDescription',
-    defaultMessage: 'Share ideas and start conversations',
+    defaultMessage: 'Chia sẻ ý tưởng và bắt đầu cuộc trò chuyện',
   },
   topicArea: {
     id: 'discussions.post.editor.topicArea',
-    defaultMessage: 'Topic area',
+    defaultMessage: 'Khu vực chủ đề',
   },
   topicAreaDescription: {
     id: 'discussions.post.editor.topicAreaDescription',
-    defaultMessage: 'Add your post to a relevant topic to help others find it.',
+    defaultMessage: 'Thêm bài viết của bạn vào chủ đề liên quan để giúp người khác tìm thấy.',
   },
   cohortVisibility: {
     id: 'discussions.post.editor.cohortVisibility',
-    defaultMessage: 'Cohort visibility',
+    defaultMessage: 'Hiển thị nhóm',
   },
   cohortVisibilityAllLearners: {
     id: 'discussions.post.editor.cohortVisibilityAllLearners',
-    defaultMessage: 'All learners',
+    defaultMessage: 'Tất cả người học',
   },
   postTitle: {
     id: 'discussions.post.editor.title',
-    defaultMessage: 'Post title',
+    defaultMessage: 'Tiêu đề bài viết',
   },
   titleDescription: {
     id: 'discussions.post.editor.titleDescription',
-    defaultMessage: 'Add a clear and descriptive title to encourage participation.',
+    defaultMessage: 'Thêm tiêu đề rõ ràng và mô tả để khuyến khích sự tham gia.',
   },
   titleError: {
     id: 'discussions.post.editor.title.error',
-    defaultMessage: 'Post title cannot be empty.',
+    defaultMessage: 'Tiêu đề bài viết không được để trống.',
   },
   commentError: {
     id: 'discussions.post.editor.content.error',
-    defaultMessage: 'Post content cannot be empty.',
+    defaultMessage: 'Nội dung bài viết không được để trống.',
   },
   questionText: {
     id: 'discussions.post.editor.questionText',
-    defaultMessage: 'Your question or idea (required)',
+    defaultMessage: 'Câu hỏi hoặc ý tưởng của bạn (bắt buộc)',
   },
   preview: {
     id: 'discussions.post.editor.preview',
-    defaultMessage: 'Preview',
+    defaultMessage: 'Xem trước',
   },
   followPost: {
     id: 'discussions.post.editor.followPost',
-    defaultMessage: 'Follow this post',
+    defaultMessage: 'Theo dõi bài viết này',
   },
   anonymousPost: {
     id: 'discussions.post.editor.anonymousPost',
-    defaultMessage: 'Post anonymously',
+    defaultMessage: 'Đăng bài ẩn danh',
   },
   anonymousToPeersPost: {
     id: 'discussions.post.editor.anonymousToPeersPost',
-    defaultMessage: 'Post anonymously to peers',
+    defaultMessage: 'Đăng bài ẩn danh với những người học khác',
   },
   submit: {
     id: 'discussions.editor.submit',
-    defaultMessage: 'Submit',
+    defaultMessage: 'Gửi',
   },
   submitting: {
     id: 'discussions.editor.submitting',
-    defaultMessage: 'Submitting',
+    defaultMessage: 'Đang gửi',
   },
   cancel: {
     id: 'discussions.editor.cancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
   },
   editReasonCode: {
     id: 'discussions.editor.posts.editReasonCode',
-    defaultMessage: 'Reason for editing',
+    defaultMessage: 'Lý do chỉnh sửa',
     description: 'Label for field visible to moderators that allows them to select a reason for editing another user\'s post',
   },
   editReasonCodeError: {
     id: 'discussions.editor.posts.editReasonCode.error',
-    defaultMessage: 'Select reason for editing',
+    defaultMessage: 'Chọn lý do chỉnh sửa',
     description: 'Error message visible to moderators when they submit the post/response/comment without select reason for editing',
   },
   showPreviewButton: {
     id: 'discussions.editor.posts.showPreview.button',
-    defaultMessage: 'Show preview',
+    defaultMessage: 'Hiển thị xem trước',
     description: 'show preview button text to allow user to see their post content.',
   },
   showHelpIcon: {
     id: 'discussions.editor.posts.showHelp.icon',
-    defaultMessage: 'Show Help',
+    defaultMessage: 'Hiển thị trợ giúp',
     description: 'show help icon to allow user to see important documentation.',
   },
   discussionHelpHeader: {
     id: 'discussions.editor.posts.discussionHelpHeader',
-    defaultMessage: 'Discussions help',
+    defaultMessage: 'Trợ giúp thảo luận',
     description: 'header text for post help section.',
   },
   discussionHelpDescription: {
     id: 'discussions.editor.posts.discussionHelpDescription',
-    defaultMessage: 'Course discussions give you the opportunity to start conversations, ask questions, and interact with other learners. See the links below to learn more:',
+    defaultMessage: 'Thảo luận khóa học cho bạn cơ hội để bắt đầu cuộc trò chuyện, đặt câu hỏi và tương tác với những người học khác. Xem các liên kết bên dưới để tìm hiểu thêm:',
     description: 'description message for post help section.',
   },
   discussionHelpCourseParticipation: {
     id: 'discussions.editor.posts.discussionHelpCourseParticipation',
-    defaultMessage: 'Participating in course discussions',
+    defaultMessage: 'Tham gia thảo luận khóa học',
     description: 'Documentation link title for participating in course discussions.',
   },
   discussionHelpMathExpressions: {
     id: 'discussions.editor.posts.discussionHelpMathExpressions',
-    defaultMessage: 'Entering math expressions in course discussions',
+    defaultMessage: 'Nhập biểu thức toán học trong thảo luận khóa học',
     description: 'Documentation link title for entering math expressions in course discussions.',
   },
   discussionHelpTooltip: {
     id: 'discussions.editor.posts.discussionHelpTooltip',
-    defaultMessage: 'Learn more about MathJax & LaTeX',
+    defaultMessage: 'Tìm hiểu thêm về MathJax & LaTeX',
     description: 'Tooltip help message for documentation help.',
   },
   actionsAlt: {
     id: 'discussions.actions.label',
-    defaultMessage: 'Actions menu',
+    defaultMessage: 'Menu thao tác',
     description: 'Button to see actions for a post or comment',
   },
   unnamedTopics: {
     id: 'discussions.topic.noName.label',
-    defaultMessage: 'Unnamed category',
+    defaultMessage: 'Danh mục chưa đặt tên',
     description: 'display string for topics with missing names',
   },
   unnamedSubTopics: {
     id: 'discussions.subtopic.noName.label',
-    defaultMessage: 'Unnamed subcategory',
+    defaultMessage: 'Danh mục phụ chưa đặt tên',
     description: 'display string for topics with missing names',
   },
   noThreadFound: {
     id: 'discussion.thread.notFound',
-    defaultMessage: 'Thread not found',
+    defaultMessage: 'Không tìm thấy chủ đề',
     description: 'message to show on screen if the request thread is not found in course',
   },
   archivedTopics: {
     id: 'discussions.topics.archived.label',
-    defaultMessage: 'Archived',
+    defaultMessage: 'Đã lưu trữ',
     description: 'Heading for displaying topics that are archived.',
   },
 });

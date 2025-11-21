@@ -3,22 +3,22 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   allPosts: {
     id: 'discussions.navigation.navigationBar.allPosts',
-    defaultMessage: 'All posts',
+    defaultMessage: 'Tất cả bài viết',
     description: 'Option in navbar to show all posts',
   },
   allTopics: {
     id: 'discussions.navigation.navigationBar.allTopics',
-    defaultMessage: 'Topics',
+    defaultMessage: 'Chủ đề',
     description: 'Option in navbar to show all topics',
   },
   myPosts: {
     id: 'discussions.navigation.navigationBar.myPosts',
-    defaultMessage: 'My posts',
+    defaultMessage: 'Bài viết của tôi',
     description: 'Option in navbar to show a user\'s posts',
   },
   learners: {
     id: 'discussions.navigation.navigationBar.learners',
-    defaultMessage: 'Learners',
+    defaultMessage: 'Người học',
     description: 'Option in navbar to show learners',
   },
 
