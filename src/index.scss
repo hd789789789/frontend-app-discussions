@@ -602,6 +602,126 @@ th, td {
   width: 16px !important;
 }
 
+/* Dark theme overrides */
+.dark-theme,
+.dark-theme body {
+  background-color: #0b1526;
+  color: #e5e7eb;
+}
+
+.dark-theme .learning-header,
+.dark-theme .header-action-bar,
+.dark-theme .navbar {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+.dark-theme .nav-link,
+.dark-theme .nav-item a,
+.dark-theme .navbar a {
+  color: #e5e7eb !important;
+}
+
+.dark-theme .nav-link.active,
+.dark-theme .nav-item a.active {
+  color: #60a5fa !important;
+}
+
+.dark-theme .card,
+.dark-theme .pgn__card,
+.dark-theme .discussion-posts .card,
+.dark-theme .discussion-comments,
+.dark-theme .post-preview,
+.dark-theme .pgn__modal,
+.dark-theme .dropdown-menu {
+  background-color: #111827 !important;
+  color: #e5e7eb;
+  border-color: #1f2937 !important;
+}
+
+.dark-theme .form-control,
+.dark-theme .pgn__input,
+.dark-theme .pgn__search-input,
+.dark-theme .pgn__form-control-floating-label-content,
+.dark-theme input,
+.dark-theme textarea,
+.dark-theme select {
+  background-color: #0f172a !important;
+  color: #e5e7eb !important;
+  border-color: #1f2937 !important;
+}
+
+.dark-theme .form-control::placeholder,
+.dark-theme .pgn__search-input::placeholder,
+.dark-theme input::placeholder,
+.dark-theme textarea::placeholder {
+  color: #9ca3af !important;
+}
+
+.dark-theme .btn,
+.dark-theme .pgn__btn {
+  border-color: #1f2937;
+}
+
+.dark-theme .btn-primary,
+.dark-theme .pgn__btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.dark-theme .btn-outline-primary,
+.dark-theme .pgn__btn-outline-primary {
+  color: #93c5fd !important;
+  border-color: #1f2937;
+}
+
+.dark-theme .pgn__tab-nav .nav-link {
+  color: #e5e7eb;
+}
+
+.dark-theme .pgn__tab-nav .nav-link.active {
+  color: #60a5fa;
+  border-color: #2563eb;
+}
+
+.dark-theme .table,
+.dark-theme th,
+.dark-theme td {
+  color: #e5e7eb;
+  border-color: #1f2937;
+}
+
+.dark-theme .badge,
+.dark-theme .pgn__badge {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.dark-theme .pgn__toast {
+  background-color: #111827;
+  color: #e5e7eb;
+  border-color: #1f2937;
+}
+
+.dark-theme .pgn__tooltip {
+  background-color: #111827;
+  color: #e5e7eb;
+  border-color: #1f2937;
+}
+
+.dark-theme .discussion-posts .list-group-item {
+  background-color: #0f172a;
+  color: #e5e7eb;
+  border-color: #1f2937;
+}
+
+.dark-theme .post-summary-card-selected {
+  border-right-color: #2563eb !important;
+}
+
+.dark-theme .pgn__spinner circle {
+  stroke: #60a5fa;
+}
 @media only screen and (max-width: 367px) {
 
   .discussion-comments h5,
