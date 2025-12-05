@@ -728,6 +728,65 @@ th, td {
   border-color: #1f2937;
 }
 
+.dark-theme .discussion-posts .discussion-post,
+.dark-theme .discussion-posts .list-group {
+  background-color: #0b1526 !important;
+  color: #e5e7eb !important;
+  border-color: #1f2937 !important;
+}
+
+.dark-theme .discussion-posts .discussion-post .bg-light-300,
+.dark-theme .discussion-posts .discussion-post .border-light-400 {
+  background-color: #0f172a !important;
+  border-color: #1f2937 !important;
+  color: #e5e7eb !important;
+}
+
+.dark-theme .discussion-posts .discussion-post .text-gray-700,
+.dark-theme .discussion-posts .discussion-post .text-gray-900,
+.dark-theme .discussion-posts .discussion-post .text-primary-500 {
+  color: #e5e7eb !important;
+}
+
+.dark-theme .discussion-posts .discussion-post .post-summary-timestamp,
+.dark-theme .discussion-posts .discussion-post .font-style {
+  color: #cbd5e1 !important;
+}
+
+.dark-theme .discussion-posts .discussion-post .pgn__icon {
+  color: #cbd5e1;
+}
+
+.dark-theme .discussion-comments,
+.dark-theme .post-preview,
+.dark-theme .hover-card {
+  background-color: #0f172a !important;
+  color: #e5e7eb !important;
+  border-color: #1f2937 !important;
+}
+
+.dark-theme .discussion-comments .bg-white,
+.dark-theme .hover-card.bg-white {
+  background-color: #0f172a !important;
+}
+
+.dark-theme .discussion-comments .text-gray-500,
+.dark-theme .discussion-comments .text-gray-700,
+.dark-theme .discussion-comments .text-primary-500 {
+  color: #e5e7eb !important;
+}
+
+.dark-theme .discussion-comments .btn,
+.dark-theme .discussion-comments .btn-tertiary {
+  background-color: #111827 !important;
+  color: #e5e7eb !important;
+  border-color: #1f2937 !important;
+}
+
+.dark-theme .html-loader {
+  color: #e5e7eb !important;
+}
+
 .dark-theme .post-summary-card-selected {
   border-right-color: #2563eb !important;
 }
