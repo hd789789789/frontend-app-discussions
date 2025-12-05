@@ -89,30 +89,30 @@ const messages = defineMessages({
   sortFilterStatus: {
     id: 'discussions.posts.sort-filter.sortFilterStatus',
     defaultMessage: `{own, select,
-      false {All}
-      true {Own}
+      false {Tất cả}
+      true {Của tôi}
       other {{own}}
     } {status, select,
       statusAll {}
-      statusUnread {unread}
-      statusFollowing {followed}
-      statusReported {reported}
-      statusUnanswered {unanswered}
-      statusUnresponded {unresponded}
+      statusUnread {chưa đọc}
+      statusFollowing {đang theo dõi}
+      statusReported {bị báo cáo}
+      statusUnanswered {chưa được trả lời}
+      statusUnresponded {chưa phản hồi}
       other {{status}}
     } {type, select,
-      discussion {discussions}
-      question {questions}
-      all {posts}
+      discussion {thảo luận}
+      question {câu hỏi}
+      all {bài viết}
       other {{type}}
     } {cohortType, select,
         all {}
-        group {in {cohort}}
+        group {trong {cohort}}
         other {{cohortType}}
-    } sorted by {sort, select,
-      lastActivityAt {recent activity}
-      commentCount {most activity}
-      voteCount {most likes}
+    } sắp xếp theo {sort, select,
+      lastActivityAt {hoạt động gần đây}
+      commentCount {nhiều hoạt động nhất}
+      voteCount {nhiều lượt thích nhất}
       other {{sort}}
     }`,
     description: 'Status message showing current sorting and filtering status',

@@ -24,17 +24,17 @@ const messages = defineMessages({
   responseCount: {
     id: 'discussions.comments.comment.responseCount',
     defaultMessage: `{num, plural,
-      =0 {No responses}
-      one {Showing # response}
-      other {Showing # responses}
+      =0 {Không có phản hồi}
+      one {Hiển thị # phản hồi}
+      other {Hiển thị # phản hồi}
     }`,
   },
   endorsedResponseCount: {
     id: 'discussions.comments.comment.endorsedResponseCount',
     defaultMessage: `{num, plural,
-      =0 {No endorsed responses}
-      one {Showing # endorsed response}
-      other {Showing # endorsed responses}
+      =0 {Không có phản hồi được xác nhận}
+      one {Hiển thị # phản hồi được xác nhận}
+      other {Hiển thị # phản hồi được xác nhận}
     }`,
   },
   loadMoreComments: {
@@ -49,8 +49,8 @@ const messages = defineMessages({
   },
   postVisibility: {
     id: 'discussions.comments.comment.visibility',
-    defaultMessage: `This post is visible to {group, select,
-         null {Everyone}
+    defaultMessage: `Bài viết này hiển thị với {group, select,
+         null {Mọi người}
          other {{group}}
     }.`,
     description: 'Message on comment mentioning the group a particular post is visible to',
@@ -58,8 +58,8 @@ const messages = defineMessages({
   postTime: {
     id: 'discussions.comments.comment.postedTime',
     defaultMessage: `{postType, select,
-      discussion {Discussion}
-      question {Question}
+      discussion {Thảo luận}
+      question {Câu hỏi}
       other {{postType}}
     } posted {relativeTime} by`,
     description: 'Timestamp for when a user posted the message followed by username. The relative time is already translated.',

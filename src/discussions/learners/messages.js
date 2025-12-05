@@ -46,8 +46,8 @@ const messages = defineMessages({
   sortFilterStatus: {
     id: 'discussions.learner.sortFilterStatus',
     defaultMessage: `Tất cả người học được sắp xếp theo {sort, select,
-      flagged {reported activity}
-      activity {most activity}
+      flagged {hoạt động bị báo cáo}
+      activity {nhiều hoạt động nhất}
       other {{sort}}
     }`,
     description: 'Text for current selected learners filter',
