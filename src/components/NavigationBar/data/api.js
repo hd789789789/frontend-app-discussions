@@ -10,7 +10,10 @@ function normalizeCourseHomeCourseMetadata(metadata) {
   const courseId = data.courseId || data.id;
   
   // Map và xử lý tabs
-  let tabs = data.tabs.map(tab => {
+  let tabs = data.tabs
+    // Ẩn tab progress trong Discussions header
+    .filter(tab => tab.tabId !== 'progress')
+    .map(tab => {
     let title = tab.title;
     // Đổi tên tab "Dates" thành "Ngày"
     if (tab.tabId === 'dates' || title === 'Dates') {
