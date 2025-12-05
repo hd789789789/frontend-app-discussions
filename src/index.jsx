@@ -45,6 +45,8 @@ initialize({
         LEARNER_FEEDBACK_URL: process.env.LEARNER_FEEDBACK_URL,
         STAFF_FEEDBACK_URL: process.env.STAFF_FEEDBACK_URL,
         HELP_URL: 'https://pistudy.vn/help',
+        HELP_CENTER_URL: 'https://pistudy.vn/help',
+        SUPPORT_URL: 'https://pistudy.vn/help',
       }, 'DiscussionsConfig');
     },
   },
