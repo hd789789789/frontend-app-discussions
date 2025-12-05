@@ -616,6 +616,19 @@ th, td {
   color: #e5e7eb;
 }
 
+/* Bảo vệ dark theme khỏi override nền trắng của header gốc */
+.dark-theme .learning-header {
+  background-color: #111827 !important;
+  color: #e5e7eb !important;
+}
+.dark-theme .learning-header a {
+  color: #e5e7eb !important;
+}
+.dark-theme .learning-header a:hover,
+.dark-theme .learning-header a:focus {
+  color: #60a5fa !important;
+}
+
 .dark-theme .nav-link,
 .dark-theme .nav-item a,
 .dark-theme .navbar a {
